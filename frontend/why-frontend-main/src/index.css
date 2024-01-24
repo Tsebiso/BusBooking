@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+:root {
+  font-family: 'Fredoka', sans-serif;
+  
+  /* COLOR PALETTE */
+  --primary-color: #F0F4FD;
+  --secondary-color: #01C38E;
+  --tertiary-color: #E5F8F2;
+  --quaternary-color: #1B1517;
+  --quinary-color: #FFFFFF;
+  --senary-color: #B27567;
+}

@@ -1,0 +1,70 @@
+.onboarding {
+    display: grid;
+    align-items: center;
+    height: 90vh;
+}
+
+.onboarding__form {
+    display: grid;
+    align-items: center;
+}
+
+.datepicker {
+    border: 1px solid;
+    width: 100%;
+    min-width: 0px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    position: relative;
+    padding: .5em 1em;
+    border-radius: 8px;
+}
+
+.onboarding__left {
+    display: none;
+}
+
+.onboarding__form-text {
+    margin-bottom: 2em;
+}
+
+.onboarding__form-text h2 {
+    font-size: 30px;
+    font-family: 500;
+}
+
+.onboarding__form-text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.page {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.page span {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.page span:hover {
+    color: var(--secondary-color);
+}
+
+@media only screen and (min-width: 992px) {
+    .onboarding {
+        grid-template-columns: 40% auto;
+    }
+
+    .onboarding__left {
+        display: unset;
+    }
+
+    .onboarding__left img {
+        width: 100%;
+        height: 100%;
+    }
+}
